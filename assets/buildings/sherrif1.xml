@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building version="1">
+	<info points="5000" killhits="30" foe="20" />
+
+	<visuals>
+		<visual aftershot="0" src="buildings/sheriff_office0.png" hit="buildings/sheriff_office0_hit.png" width="233" height="193" />
+		<visual aftershot="10" src="buildings/sheriff_office1.png" hit="buildings/sheriff_office1_hit.png" width="233" height="193" />
+		<visual aftershot="20" src="buildings/sheriff_office2.png" hit="buildings/sheriff_office2_hit.png" width="233" height="193" />
+	</visuals>
+
+	<destruction delay="80" sound="crash1" after="buildings/sheriff_office_destr0.png">
+	    <visual src="buildings/sheriff_office_destr1.png" />
+	    <visual src="buildings/sheriff_office_destr2.png" />
+   	    <visual src="buildings/sheriff_office_destr3.png" />
+   	    <visual src="buildings/sheriff_office_destr4.png" />
+   	    <visual src="buildings/sheriff_office_destr5.png" />
+   	    <visual src="buildings/sheriff_office_destr6.png" />
+   	    <visual src="buildings/sheriff_office_destr7.png" />
+   	    <visual src="buildings/sheriff_office_destr8.png" />
+  	    <visual src="buildings/sheriff_office_destr9.png" />
+  	</destruction>
+</building>

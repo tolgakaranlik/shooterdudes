@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stage>
+	<info targetfoe="100" maxdepth="250" background="buildings/stage1bg.png" bgcolor="#bd6805" debug="false" />
+
+	<characters>
+		<character id="cwb1" type="cowboy1medium" layer="20" shootaction="die" />
+		<character id="cwb2" type="cowboy1medium" layer="20" shootaction="die" />
+		<character id="cwb3" type="cowboy1medium" layer="20" shootaction="die" />
+		<character id="cwb4" type="cowboy1" layer="40" shootaction="die" />
+		<character id="cwb5" type="cowboy1" layer="40" shootaction="die" />
+		<character id="cwb6" type="cowboy1" layer="40" shootaction="die" />
+
+		<character id="cwb7" type="cowboy1medium" layer="20" shootaction="die" />
+		<character id="cwb8" type="cowboy1medium" layer="20" shootaction="die" />
+		<character id="cwb9" type="cowboy1medium" layer="20" shootaction="die" />
+		<character id="cwbA" type="cowboy1" layer="40" shootaction="die" />
+		<character id="cwbB" type="cowboy1" layer="40" shootaction="die" />
+		<character id="cwbC" type="cowboy1" layer="40" shootaction="die" />
+		
+		<character id="outlw1" type="outlaw1" layer="36" shootaction="speedup2x" shootdrop="point10k" ybias="0" />
+	</characters>
+
+	<buildings>
+		<building id="sherrif1" type="sherrif1" posx="12" posy="197" scale="1" layer="10" />
+		<building id="saloon1" type="saloon1" posx="539" posy="10" scale="1" layer="10" />
+		<building id="barrel1" type="barrel1" posx="854" posy="388" scale="1" layer="37" />
+	</buildings>
+
+	<objects>
+		<object type="cactus1" posx="21" posy="364" scale="1" layer="35" />
+		<object type="cactus2" posx="977" posy="313" scale="1" layer="15" />
+	</objects>
+	
+	<timeline>
+		<frame time="3000">
+			<character id="outlw1" appearx="-163" appeary="420">
+				<walk type="constant" steps="30" />
+			</character>
+		</frame>
+		<!-- dalga 1 -->
+		<!-- soldan gelen üçlü -->
+		<frame time="5400">
+			<character id="cwb1" appearx="-358" appeary="150">
+				<walk type="constant" steps="9" />
+				<fire wait="3500" />
+				<walk type="constant" steps="-9" />
+			</character>
+		</frame>
+
+		<frame time="5900">
+			<character id="cwb2" appearx="-508" appeary="150">
+				<walk type="constant" steps="9" />
+				<fire wait="3500" />
+				<walk type="constant" steps="-9" />
+			</character>
+		</frame>
+
+		<frame time="6400">
+			<character id="cwb3" appearx="-650" appeary="150">
+				<walk type="constant" steps="9" />
+				<fire wait="3500" />
+				<walk type="constant" steps="-9" />
+			</character> 
+		</frame>
+
+		<frame time="10000">
+			<character id="cwb4" appearx="-388" appeary="225">
+				<walk type="constant" steps="8" />
+				<fire wait="3500" />
+				<walk type="constant" steps="-8" />
+			</character>
+		</frame>
+
+		<frame time="10500">
+			<character id="cwb5" appearx="-582" appeary="225">
+				<walk type="constant" steps="8" />
+				<fire wait="3500" />
+				<walk type="constant" steps="-8" />
+			</character>
+		</frame>
+
+		<frame time="11000">
+			<character id="cwb6" appearx="-776" appeary="225">
+				<walk type="constant" steps="8" />
+				<fire wait="3500" />
+				<walk type="constant" steps="-8" />
+			</character> 
+		</frame>
+
+		<!-- dalga 2 -->
+		<!-- soldan gelen üçlüler -->
+		<frame time="15400">
+			<character id="cwb7" appearx="1082" appeary="150">
+				<walk type="constant" steps="-9" />
+				<fire wait="3500" />
+				<walk type="constant" steps="9" />
+			</character>
+		</frame>
+
+		<frame time="15900">
+			<character id="cwb8" appearx="1276" appeary="150">
+				<walk type="constant" steps="-9" />
+				<fire wait="3500" />
+				<walk type="constant" steps="9" />
+			</character>
+		</frame>
+
+		<frame time="16400">
+			<character id="cwb9" appearx="1470" appeary="150">
+				<walk type="constant" steps="-9" />
+				<fire wait="3500" />
+				<walk type="constant" steps="9" />
+			</character> 
+		</frame>
+
+		<frame time="20000">
+			<character id="cwbA" appearx="1112" appeary="225">
+				<walk type="constant" steps="-8" />
+				<fire wait="3500" />
+				<walk type="constant" steps="8" />
+			</character>
+		</frame>
+
+		<frame time="20500">
+			<character id="cwbB" appearx="1306" appeary="225">
+				<walk type="constant" steps="-8" />
+				<fire wait="3500" />
+				<walk type="constant" steps="8" />
+			</character>
+		</frame>
+
+		<frame time="21000">
+			<character id="cwbC" appearx="1500" appeary="225">
+				<walk type="constant" steps="-8" />
+				<fire wait="3500" />
+				<walk type="constant" steps="8" />
+			</character> 
+		</frame>
+		
+		<frame time="30000">
+		    <command type="gotoTime" target="4000" />
+		</frame>
+	</timeline>
+</stage>

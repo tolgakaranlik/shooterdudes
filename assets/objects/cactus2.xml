@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object version="1">
+	<visuals>
+		<visual src="buildings/cactus2.png" width="66" height="99" />
+	</visuals>
+</object>

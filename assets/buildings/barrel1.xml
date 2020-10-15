@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building version="1">
+	<info points="100" killhits="10" foe="6" />
+
+	<visuals>
+		<visual aftershot="0" src="buildings/barrel1.png" hit="buildings/barrel1_hit.png" width="210" height="250" />
+		<visual aftershot="5" src="buildings/barrel2.png" hit="buildings/barrel2_hit.png" width="210" height="250" />
+	</visuals>
+	
+	<destruction delay="70" sound="break1" after="buildings/barrel0.png">
+	    <visual src="buildings/barrel_destr1.png" />
+	    <visual src="buildings/barrel_destr2.png" />
+	    <visual src="buildings/barrel_destr3.png" />
+	    <visual src="buildings/barrel_destr4.png" />
+	    <visual src="buildings/barrel_destr5.png" />
+   	</destruction>
+</building>

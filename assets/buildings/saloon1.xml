@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building version="1">
+	<info points="10000" killhits="45" foe="17" />
+
+	<visuals>
+		<visual aftershot="0" src="buildings/saloon1_0.png" hit="buildings/saloon1_0_hit.png" width="570" height="391" />
+		<visual aftershot="15" src="buildings/saloon1_1.png" hit="buildings/saloon1_1_hit.png" width="570" height="391" />
+		<visual aftershot="30" src="buildings/saloon1_2.png" hit="buildings/saloon1_2_hit.png" width="570" height="391" />
+	</visuals>
+
+	<destruction delay="80" sound="crash1" after="buildings/saloon1_destr0.png">
+	    <visual src="buildings/saloon1_destr1.png" />
+	    <visual src="buildings/saloon1_destr2.png" />
+   	    <visual src="buildings/saloon1_destr3.png" />
+   	    <visual src="buildings/saloon1_destr4.png" />
+   	    <visual src="buildings/saloon1_destr5.png" />
+   	    <visual src="buildings/saloon1_destr6.png" />
+   	    <visual src="buildings/saloon1_destr7.png" />
+   	    <visual src="buildings/saloon1_destr8.png" />
+  	</destruction>
+</building>

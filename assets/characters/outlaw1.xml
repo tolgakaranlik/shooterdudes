@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character version="1">
+	<info points="250" killhits="1000" foe="1" />
+
+	<movement type="walk" framedelay="50" width="163" height="153" stepsize="120">
+		<keyframe file="characters/cowboy2/cowboy2_mvt1.png" />
+		<keyframe file="characters/cowboy2/cowboy2_mvt2.png" />
+		<keyframe file="characters/cowboy2/cowboy2_mvt3.png" />
+		<keyframe file="characters/cowboy2/cowboy2_mvt4.png" />
+	</movement>
+</character>

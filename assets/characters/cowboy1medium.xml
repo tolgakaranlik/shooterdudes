@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character version="1">
+	<info points="100" killhits="1" foe="1" />
+
+	<movement type="stand" framedelay="60" width="270" height="336">
+		<keyframe file="characters/cowboy1/medium/cowboy1_mvt0.png" />
+	</movement>
+
+	<movement type="walk" framedelay="70" width="270" height="336" stepsize="72">
+		<keyframe file="characters/cowboy1/medium/cowboy1_mvt1.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_mvt2.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_mvt3.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_mvt4.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_mvt5.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_mvt6.png" />
+	</movement>
+
+	<movement type="die" framedelay="70" width="270" height="336">
+		<keyframe file="characters/cowboy1/medium/cowboy1_die1.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_die2.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_die3.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_die4.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_die5.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_die6.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_die7.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_die8.png" />
+	</movement>
+
+	<movement type="fire prepare" framedelay="100" width="270" height="336">
+		<keyframe file="characters/cowboy1/medium/cowboy1_fire_prep0.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_fire_prep1.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_fire_prep2.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_fire_prep3.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_fire_prep4.png" />
+	</movement>
+	
+	<movement type="fire shoot" framedelay="100" width="270" height="336">
+		<keyframe file="characters/cowboy1/medium/cowboy1_fire0.png" />
+   		<keyframe file="characters/cowboy1/medium/cowboy1_fire1.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_fire2.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_fire3.png" />
+		<keyframe file="characters/cowboy1/medium/cowboy1_fire4.png" />
+	</movement>
+</character>
