@@ -5,6 +5,8 @@ This project is not being maintained and has known issues. This repository is be
 1. My personal reference
 2. To help people who are trying to develop similar things. Such people can copy the source code they see here but all assets are forbidden to be copied or used in anywhere else for any purposes.
 
+A binary APK is included in the bin folder. It may not work on new Android versions or some features may not work as intended, because it was compiled on long ago (should be Android 8 or something like that) and minimum required version should be Android 4. It was written in Eclipse/Maven environment, so Android Studio/Gradle environment should complain a lot about the project.
+
 Please do not ask me to:
 - Correct some issue in the code
 - Explain why things have been done in this way
